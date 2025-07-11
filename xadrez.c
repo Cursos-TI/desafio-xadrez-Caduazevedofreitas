@@ -22,5 +22,24 @@ int main() {
         i++;
     } while (i <= 8);
 
+    printf("\nMovimento do Cavalo:\n");
+
+    int Baixo = 2;
+    int Esquerda = 1;
+
+    
+    for (i = 1; i <= Baixo; i++) {
+        printf("Baixo\n");
+
+    
+    if (i == Baixo) {
+            int j = 1;
+    while (j <= Esquerda) {
+         printf("Esquerda\n");
+                j++;
+            }
+        }
+    }
+
     return 0;
-} 
+}   
